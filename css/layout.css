@@ -25,7 +25,14 @@ nav .logo{
   float: left;
 }
 
-
+header ul{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 15px;
+  margin: 0;
+  float: right;
+  overflow: hidden;
+}
 
 header nav ul li{
   font-weight: bold;
