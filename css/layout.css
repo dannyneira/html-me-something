@@ -1,3 +1,59 @@
-.first_title{ color:royalblue; }
-.fontz { font-size: 20px }
-#title{ font-size: 100px }
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: steelblue ;
+    color: black;
+    padding: 10px;
+    overflow: hidden;
+}
+nav ul li{
+    float: right;
+}
+
+nav ul li.active{
+    background-color: royalblue; 
+}
+
+nav .logo{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+
+
+
+header nav ul li{
+  font-weight: bold;
+  font-size: 15px;
+  display: inline-block;
+  float: left;
+  margin-right: 25px;
+}
+
+section{
+  padding: 10px 30px;
+}
+
+section#left_section{
+    float: left;
+    width: 70px;
+    height: 658px;
+}
+section#right_section{
+  float: left;
+  width: 65%;
+  margin-left: 20px;
+}
+
+br{ 
+    clear:both;
+}
+
+footer{
+    text-align: center;
+}
