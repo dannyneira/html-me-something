@@ -1,65 +1,106 @@
+/* Global Tag CSS */
 html, body{
+    font-family: Helvetica, sans-serif;
     margin: 0px;
-    padding: 0px;
 }
-
+a{
+    color: #005178;
+    text-decoration: none;
+}
+a:visited{
+    color: #005178;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+}
 /* Navigation Classes */
 .nav-bar{
-    position: fixed;
-    width: 100%;
-    height: auto;
-    font-family: Helvetica, sans-serif;
-    font-size: 24px;
-    background-color: steelblue;
+    font-size: 30px;
     color: black;
+    background-color: white;
+    border-bottom: 2px solid #005178;
     overflow: hidden;
+    position: fixed;
+    height: auto;
+    width: 100%;
 }
 .nav-bar:hover{
-    box-shadow: 0px 0px 50px grey;
+    box-shadow: inset 0px -15px 15px -15px black;
 }
-.nav-logo{
+.nav-bar-logo{
+    float: left;
+    margin-left: 15px;
     height: 40px;
-    width: 80px;
+    width: auto;
 }
-.nav-links{
-    display: inline-table;
+.nav-bar-links{
+    padding: 10px;
+    margin-right: 10px;
+    float: right;
+    display: inline-block
+}
+.nav-link{
+    margin-top: 10px;
+    padding-right: 10px;
 }
 
 /* Content Classes & Ids */
 .content{
     font-family: Helvetica, sans-serif;
     font-size: 20px;
-    height: 400px;
-    border: 1px solid steelblue;
+    border-top: 2px solid #005178;
+    border-bottom: 2px solid #005178;
     background-color: lightblue;
+    height: 300px;
 }
 .space{
     display: none;
-    position: fixed;
 }
 .parallax{
-    height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
+    width: auto;
 }
 .map {
     position: relative;
     height: 300px;
-
+    width: auto;
 }
 .map iframe {
-    position: absolute;
+    pointer-events: none;
+    position: relative;
     top: 0;
     left: 0;
     width: 100% !important;
     height: inherit !important;
 }
+.map iframe:focus{
+    pointer-events: all;
+}
 
 #home-img{
-    background-image: url("../assets/cafe2.jpg");
+    background-image: url("../assets/cafe-old.png");
 }
 #menu-img{
     background-image: url("../assets/food.jpg");
+}
+#about-img{
+    background-image: url("../assets/outside.jpg");
+}
+
+/* Footer Classes */
+.footer{
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    color:#005178;
+    background-color: white;
+    border-top: 2px solid #005178;
+    display: inline-block;
+    height: auto;
+    width: 100%;
 }
