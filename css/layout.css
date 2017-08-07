@@ -2,72 +2,40 @@ html, body{
     margin: 0px;
     padding: 0px;
 }
-nav{
-    background-color: steelblue ;
+
+/* Navigation Classes */
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: steelblue;
     color: black;
-    padding: 10px;
     overflow: hidden;
 }
-nav ul li{
-    float: right;
+.nav-bar:hover{
+    box-shadow: 0px 0px 50px grey;
+}
+.nav-logo{
+    height: 40px;
+    width: 80px;
+}
+.nav-links{
+    display: inline-table;
 }
 
-nav ul li.active{
-    background-color: royalblue; 
-}
-
-nav .logo{
-  font-size: 20px;
-  font-weight: bold;
-  padding: 10px 20px;
-  display: inline-block;
-  vertical-align: top;
-  float: left;
-}
-
-header ul{
-  display: inline-block;
-  vertical-align: top;
-  padding-top: 15px;
-  margin: 0;
-  float: right;
-  overflow: hidden;
-}
-
-header nav ul li{
-  font-weight: bold;
-  font-size: 15px;
-  display: inline-block;
-  float: left;
-  margin-right: 25px;
-}
-
-section{
-  padding: 10px 30px;
-}
-
-section#left_section{
-    float: left;
-    width: 70px;
-    height: 658px;
-}
-section#right_section{
-  float: left;
-  width: 65%;
-  margin-left: 20px;
-}
-
-br{ 
-    clear:both;
-}
-
-footer{
-    text-align: center;
-}
+/* Content Classes & Ids */
 .content{
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 20px;
-    border: 1px solid lightblue;
+    height: 400px;
+    border: 1px solid steelblue;
+    background-color: lightblue;
+}
+.space{
+    display: none;
+    position: fixed;
 }
 .parallax{
     height: 600px;
@@ -75,4 +43,23 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.map {
+    position: relative;
+    height: 300px;
+
+}
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: inherit !important;
+}
+
+#home-img{
+    background-image: url("../assets/cafe2.jpg");
+}
+#menu-img{
+    background-image: url("../assets/food.jpg");
 }
