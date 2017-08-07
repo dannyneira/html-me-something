@@ -1,7 +1,21 @@
-/* Global Tag CSS */
+/* Global Element CSS */
 html, body{
+    margin: 0em;
     font-family: Helvetica, sans-serif;
-    margin: 0px;
+}
+h3{
+    color: #005178;
+    text-align: center;
+}
+p{
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    margin: 0em 5em 0em 5em;
+    padding: 6em;
+    border: .05em solid #005178;
+    border-radius: 1em;
+    background-color: white;
 }
 a{
     color: #005178;
@@ -14,45 +28,43 @@ a:visited{
 a:hover{
     font-weight: bold;
 }
-/* Navigation Classes */
+
+/* Navigation Bar Classes */
 .nav-bar{
-    font-size: 30px;
+    font-size: 1.8em;
     color: black;
     background-color: white;
-    border-bottom: 2px solid #005178;
+    border-bottom: .09em solid #005178;
     overflow: hidden;
     position: fixed;
     height: auto;
     width: 100%;
 }
 .nav-bar:hover{
-    box-shadow: inset 0px -15px 15px -15px #005178;
+    box-shadow: inset 0px -20px 20px -20px #005178;
 }
 .nav-bar-logo{
     float: left;
-    margin-left: 15px;
+    margin-left: .75em;
     height: 40px;
     width: auto;
 }
 .nav-bar-links{
-    padding: 10px;
-    margin-right: 10px;
+    padding: .4em;
+    margin-right: .5em;
     float: right;
     display: inline-block
 }
 .nav-link{
-    margin-top: 10px;
-    padding-right: 10px;
+    padding-right: .5em;
 }
 
-/* Content Classes & Ids */
+/* Main Classes & Ids */
 .content{
-    font-family: Helvetica, sans-serif;
-    font-size: 20px;
-    border-top: 2px solid #005178;
-    border-bottom: 2px solid #005178;
+    border-top: .2em solid #005178;
+    border-bottom: .2em solid #005178;
     background-color: lightblue;
-    height: 300px;
+    height: 20em;
 }
 .space{
     display: none;
@@ -62,12 +74,12 @@ a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 35em;
     width: auto;
 }
 .map {
     position: relative;
-    height: 300px;
+    height: 20em;
     width: auto;
 }
 .map iframe {
@@ -78,12 +90,8 @@ a:hover{
     width: 100% !important;
     height: inherit !important;
 }
-.map iframe:focus{
-    pointer-events: all;
-}
-
 #home-img{
-    background-image: url("../assets/cafe-old.png");
+    background-image: url("../assets/cafe.jpg");
 }
 #menu-img{
     background-image: url("../assets/food.jpg");
@@ -92,10 +100,10 @@ a:hover{
     background-image: url("../assets/outside.jpg");
 }
 
-/* Footer Classes */
+/* Footer Class */
 .footer{
     padding: 10px;
-    font-size: 16px;
+    font-size: 1em;
     text-align: center;
     color:#005178;
     background-color: white;
