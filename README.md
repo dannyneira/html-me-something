@@ -1,8 +1,8 @@
 # LaunchCode Cafe
-Simple mock Cafe website I made for LaunchCode CodeCamp.
+Simple Mock Cafe website I made for LaunchCode CodeCamp.
 
 ### What I learned:
 * HTML Snippets using Emmet
-* Custom & Bootstrap CSS
+* Custom CSS + Ion Icons
 * Version Control using Git
-* Deployment to HerokuApp
+* Deployment to Heroku
