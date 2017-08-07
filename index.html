@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel='stylesheet' type='text/css' href='../css/layout.css'
     <title>Home</title>
 </head>
 <body>
-    <nav>
-    <div>
-        <a href="#">LaunchCafé</a>
-        <ul>
-            <li class='active'><a href="./index.html">Home</a></li>
-            <li><a href="./menu.html">Menu</a></li>
-            <li><a href="./about.html">About</a></li>
-        </ul>
-    </div>
-    </nav>
-    <div>
-        <p>Home Page Content Here!</p>
-    </div>
+    <header>
+        <nav class='nav-bar'>
+            <div>
+                <div class='nav-logo'><img src=''>LaunchCafe</div>
+                <div class='nav-links'>
+                    <div><a href="#home">Home</a></div>
+                    <div><a href="#menu">Menu</a></div>
+                    <div><a href="#about">About</a></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <content>
+        <div class='content' id='home'><p>Hello Home!</p></div>
+        <div class='parallax' id='home-img'></div>
+        <div class='content' id='menu'><p>Menu goes here!</p></div>
+        <div class='parallax' id='menu-img'></div>
+        <div class='content' id='about'><p>About Infos</p></div>
+    </content>
+    <footer>
+        <div></div>
+    </footer>
 </body>
 </html>

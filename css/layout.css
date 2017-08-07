@@ -64,3 +64,15 @@ br{
 footer{
     text-align: center;
 }
+.content{
+    font-family: sans-serif;
+    font-size: 20px;
+    border: 1px solid lightblue;
+}
+.parallax{
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
