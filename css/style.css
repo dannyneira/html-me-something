@@ -91,23 +91,23 @@ a:hover{
     height: inherit !important;
 }
 #home-img{
-    background-image: url("../assets/cafe.jpg");
+    background-image: url("../images/cafe.jpg");
 }
 #menu-img{
-    background-image: url("../assets/food.jpg");
+    background-image: url("../images/food.jpg");
 }
 #about-img{
-    background-image: url("../assets/outside.jpg");
+    background-image: url("../images/outside.jpg");
 }
 
 /* Footer Class */
 .footer{
-    padding: 10px;
+    padding: .75em;
     font-size: 1em;
     text-align: center;
     color:#005178;
     background-color: white;
-    border-top: 2px solid #005178;
+    border-top: .2em solid #005178;
     display: inline-block;
     height: auto;
     width: 100%;
