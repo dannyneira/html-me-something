@@ -4,25 +4,25 @@ html, body{
     font-family: Helvetica, sans-serif;
 }
 h3{
-    color: #005178;
+    color: #015486;
     text-align: center;
 }
 article{
     font-size: 1em;
     color: black;
     text-align: center;
-    margin: 0em 5em 0em 5em;
-    padding: 6em;
-    border: .05em solid #005178;
+    margin: 1em 5em 1em 5em;
+    padding: 5em;
+    border: 1em solid white;
     border-radius: 1em;
     background-color: white;
 }
 a{
-    color: #005178;
+    color: #015486;
     text-decoration: none;
 }
 a:visited{
-    color: #005178;
+    color: #015486;
     text-decoration: none;
 }
 a:hover{
@@ -34,18 +34,19 @@ a:hover{
     font-size: 1.8em;
     color: black;
     background-color: white;
-    border-bottom: .09em solid #005178;
+    border-bottom: .09em solid #015486;
     overflow: hidden;
     position: fixed;
     height: auto;
     width: 100%;
 }
 .nav-bar:hover{
-    box-shadow: inset 0px -20px 20px -20px #005178;
+    box-shadow: inset 0px -20px 20px -20px #015486;
 }
 .nav-bar-logo{
     float: left;
     margin-left: .75em;
+    margin-top: .25em;
     height: 40px;
     width: auto;
 }
@@ -61,13 +62,10 @@ a:hover{
 
 /* Main Classes & Ids */
 .content{
-    border-top: .2em solid #005178;
-    border-bottom: .2em solid #005178;
-    background-color: lightblue;
+    border-top: 1em solid white;
+    border-bottom: 1em solid white;
+    background-color: white;
     height: 20em;
-}
-.space{
-    display: none;
 }
 .parallax{
     background-attachment: fixed;
@@ -91,13 +89,13 @@ a:hover{
     height: inherit !important;
 }
 #home-img{
-    background-image: url("../images/cafe.jpg");
+    background-image: url("../images/cafe.png");
 }
 #menu-img{
-    background-image: url("../images/food.jpg");
+    background-image: url("../images/food.png");
 }
 #about-img{
-    background-image: url("../images/outside.jpg");
+    background-image: url("../images/outside.png");
 }
 
 /* Footer Class */
@@ -105,9 +103,9 @@ a:hover{
     padding: .75em;
     font-size: 1em;
     text-align: center;
-    color:#005178;
+    color:#015486;
     background-color: white;
-    border-top: .2em solid #005178;
+    border-top: .4em solid #015486;
     display: inline-block;
     height: auto;
     width: 100%;
