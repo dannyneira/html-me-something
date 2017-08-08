@@ -73,7 +73,7 @@ a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 35em;
+    height: 28em;
     width: auto;
 }
 .menu-item{
@@ -81,7 +81,6 @@ a:hover{
     background-color: #f2f2f2;
     border: 1em solid #f2f2f2;
     border-radius: 10px;
-    position: relative;
     min-height: 1px;
     margin-left: 10px;
     margin-right: 10px;
@@ -92,7 +91,7 @@ a:hover{
     background-image: url("../images/cafe.png");
 }
 #home{
-    height: 12em;
+    height: 16em;
 }
 #menu-img{
     background-image: url("../images/food.png");
