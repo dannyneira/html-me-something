@@ -1,18 +1,19 @@
 /* Global Element CSS */
 html, body{
     margin: 0em;
+}
+*{
     font-family: Helvetica, sans-serif;
+    color: #015486;
 }
 h3{
-    color: #015486;
     text-align: center;
 }
 article{
     font-size: 1em;
     color: black;
     text-align: center;
-    margin: 1em 5em 1em 5em;
-    padding: 5em;
+    /*padding: 5em;*/
     border: 1em solid white;
     border-radius: 1em;
     background-color: white;
@@ -54,7 +55,7 @@ a:hover{
     padding: .4em;
     margin-right: .5em;
     float: right;
-    display: inline-block
+    display: inline-block;
 }
 .nav-link{
     padding-right: .5em;
@@ -65,7 +66,7 @@ a:hover{
     border-top: 1em solid white;
     border-bottom: 1em solid white;
     background-color: white;
-    height: 20em;
+    color: #015486;
 }
 .parallax{
     background-attachment: fixed;
@@ -74,6 +75,36 @@ a:hover{
     background-size: cover;
     height: 35em;
     width: auto;
+}
+.menu-item{
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1em solid #f2f2f2;
+    border-radius: 10px;
+    position: relative;
+    min-height: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 15px;
+    display: inline-block;
+}
+#home-img{
+    background-image: url("../images/cafe.png");
+}
+#home{
+    height: 12em;
+}
+#menu-img{
+    background-image: url("../images/food.png");
+}
+#menu{
+    height: 20em;
+}
+#about-img{
+    background-image: url("../images/outside.png");
+}
+#about{
+    height: 16em;
 }
 .map {
     position: relative;
@@ -88,24 +119,14 @@ a:hover{
     width: 100% !important;
     height: inherit !important;
 }
-#home-img{
-    background-image: url("../images/cafe.png");
-}
-#menu-img{
-    background-image: url("../images/food.png");
-}
-#about-img{
-    background-image: url("../images/outside.png");
-}
 
 /* Footer Class */
 .footer{
-    padding: .75em;
+    padding: .6em;
     font-size: 1em;
     text-align: center;
     color:#015486;
     background-color: white;
-    border-top: .4em solid #015486;
     display: inline-block;
     height: auto;
     width: 100%;
