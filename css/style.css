@@ -42,7 +42,7 @@ a:hover{
     width: 100%;
 }
 .nav-bar:hover{
-    box-shadow: inset 0px -20px 20px -20px #015486;
+    box-shadow: inset 0px -30px 20px -30px darkgray;
 }
 .nav-bar-logo{
     float: left;
@@ -73,7 +73,6 @@ a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 28em;
     width: auto;
 }
 .menu-item{
@@ -88,26 +87,29 @@ a:hover{
     display: inline-block;
 }
 #home-img{
-    background-image: url("../images/cafe.png");
+    background-image: url("../images/coffee-cups.jpg");
+    height: 45rem;
 }
 #home{
-    height: 16em;
+    height: 16rem;
 }
 #menu-img{
-    background-image: url("../images/food.png");
+    background-image: url("../images/cafe-menu.jpg");
+    height: 40rem;
 }
 #menu{
-    height: 20em;
+    height: 20rem;
 }
 #about-img{
-    background-image: url("../images/outside.png");
+    background-image: url("../images/cafe-outside.jpg");
+    height: 42rem;
 }
 #about{
-    height: 16em;
+    height: 16rem;
 }
 .map {
     position: relative;
-    height: 20em;
+    height: 20rem;
     width: auto;
 }
 .map iframe {
