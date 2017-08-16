@@ -88,21 +88,21 @@ a:hover{
 }
 #home-img{
     background-image: url("../images/coffee-cups.jpg");
-    height: 46rem;
+    height: 32rem;
 }
 #home{
     height: 15rem;
 }
 #menu-img{
     background-image: url("../images/cafe-menu.jpg");
-    height: 40rem;
+    height: 28rem;
 }
 #menu{
     height: 20rem;
 }
 #about-img{
     background-image: url("../images/cafe-outside.jpg");
-    height: 42rem;
+    height: 30rem;
 }
 #about{
     height: 16rem;
