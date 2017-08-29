@@ -5,4 +5,4 @@ Simple Mock Cafe website I made for LaunchCode CodeCamp.
 * HTML Snippets using Emmet
 * Custom CSS + Ion Icons
 * Version Control using Git
-* Deployment to Heroku
+* Static Page Deployment to Heroku
